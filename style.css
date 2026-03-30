@@ -1,0 +1,134 @@
+body {
+/* General Styles */
+body {
+    font-family: "Times New Roman", Times, serif; /* Roman font */
+    background-color: #fff7e6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #f0c27b;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.to-text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Birthday Image */
+.birthday-img {
+    width: 80%;
+    max-width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #f0c27b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #f7d59c;
+}
+
+/* Message */
+#message {
+    margin-top: 20px;
+}
+
+#message h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#message p {
+    font-size: 16px;
+    text-align: justify;   /* Justified text */
+    text-indent: 30px;     /* Indentation */
+    line-height: 1.6;      /* More readable */
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
+}
+
+#message p {
+    font-family: "Times New Roman", Times, serif; /* Roman font */
+    font-size: 12px;          /* 12px font size */
+    text-align: justify;       /* Justified text */
+    text-indent: 30px;         /* Indent first line */
+    line-height: 1.6;          /* Mas readable kahit maliit ang font */
+}
+
+/* Next Page Paragraph Styling */
+.next-msg {
+    font-family: "Times New Roman", Times, serif; /* Roman font */
+    font-size: 12px;          /* 12px font size */
+    text-align: justify;       /* Justified text */
+    text-indent: 30px;         /* First line indentation */
+    line-height: 1.6;          /* Mas readable kahit maliit */
+    margin-top: 20px;
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #f0c27b;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Title */
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Birthday Image (reuse same class as first page) */
+.birthday-img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling: Times New Roman, 12px, justified, indented */
+.next-msg {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
