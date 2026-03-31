@@ -132,3 +132,18 @@ h1 {
     line-height: 1.6;
     margin-top: 10px;
 }
+.checklist {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.checklist li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
